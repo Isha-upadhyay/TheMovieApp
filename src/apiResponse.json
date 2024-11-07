@@ -1,0 +1,432 @@
+[
+    {
+        "adult": false,
+        "backdrop_path": "/2I5eBh98Q4aPq8WdQrHdTC8ARhY.jpg",
+        "id": 569094,
+        "title": "Spider-Man: Across the Spider-Verse",
+        "original_language": "en",
+        "original_title": "Spider-Man: Across the Spider-Verse",
+        "overview": "After reuniting with Gwen Stacy, Brooklyn’s full-time, friendly neighborhood Spider-Man is catapulted across the Multiverse, where he encounters the Spider Society, a team of Spider-People charged with protecting the Multiverse’s very existence. But when the heroes clash on how to handle a new threat, Miles finds himself pitted against the other Spiders and must set out on his own to save those he loves most.",
+        "poster_path": "/8Vt6mWEReuy4Of61Lnj5Xj704m8.jpg",
+        "media_type": "movie",
+        "genre_ids": [
+            28,
+            12,
+            16,
+            878
+        ],
+        "popularity": 2974.157,
+        "release_date": "2023-05-31",
+        "video": false,
+        "vote_average": 8.669,
+        "vote_count": 547
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/jbFkZSsmFFLjqZzxQHTBYyQb0RR.jpg",
+        "id": 135251,
+        "name": "The Idol",
+        "original_language": "en",
+        "original_name": "The Idol",
+        "overview": "After a nervous breakdown derailed Jocelyn's last tour, she’s determined to claim her rightful status as the greatest and sexiest pop star in America. Her passions are reignited by Tedros, a nightclub impresario with a sordid past. Will her romantic awakening take her to glorious new heights or the deepest and darkest depths of her soul?",
+        "poster_path": "/gO9k7t9jSdkkWVG0deMZDpELZGw.jpg",
+        "media_type": "tv",
+        "genre_ids": [
+            18
+        ],
+        "popularity": 206.632,
+        "first_air_date": "2023-06-04",
+        "vote_average": 7,
+        "vote_count": 9,
+        "origin_country": [
+            "US"
+        ]
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/fgw4rFs4XMWdJTWp1eMacHKQqbZ.jpg",
+        "id": 603692,
+        "title": "John Wick: Chapter 4",
+        "original_language": "en",
+        "original_title": "John Wick: Chapter 4",
+        "overview": "With the price on his head ever increasing, John Wick uncovers a path to defeating The High Table. But before he can earn his freedom, Wick must face off against a new enemy with powerful alliances across the globe and forces that turn old friends into foes.",
+        "poster_path": "/vZloFAK7NmvMGKE7VkF5UHaz0I.jpg",
+        "media_type": "movie",
+        "genre_ids": [
+            28,
+            53,
+            80
+        ],
+        "popularity": 5459.368,
+        "release_date": "2023-03-22",
+        "video": false,
+        "vote_average": 7.946,
+        "vote_count": 2652
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/aEHwpKJyLB56AqR7SPBje5L8M79.jpg",
+        "id": 961718,
+        "title": "Medellin",
+        "original_language": "fr",
+        "original_title": "Medellin",
+        "overview": "To save his little brother from the hands of dangerous narcos of the Medellín cartel, Reda has a plan that is as simple as it is totally insane: put together a team and raid Colombia. But this adventure is going to get completely out of control when he decides to kidnap the son of the cartel leader to exchange him for his brother's life.",
+        "poster_path": "/jKFOQ5LNQuIWGLdB2WhVlSUcS6F.jpg",
+        "media_type": "movie",
+        "genre_ids": [
+            28,
+            35
+        ],
+        "popularity": 139.112,
+        "release_date": "2023-06-01",
+        "video": false,
+        "vote_average": 5.652,
+        "vote_count": 46
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/2klQ1z1fcHGgQPevbEQdkCnzyuS.jpg",
+        "id": 502356,
+        "title": "The Super Mario Bros. Movie",
+        "original_language": "en",
+        "original_title": "The Super Mario Bros. Movie",
+        "overview": "While working underground to fix a water main, Brooklyn plumbers—and brothers—Mario and Luigi are transported down a mysterious pipe and wander into a magical new world. But when the brothers are separated, Mario embarks on an epic quest to find Luigi.",
+        "poster_path": "/qNBAXBIQlnOThrVvA6mA2B5ggV6.jpg",
+        "media_type": "movie",
+        "genre_ids": [
+            16,
+            10751,
+            12,
+            14,
+            35
+        ],
+        "popularity": 4014.944,
+        "release_date": "2023-04-05",
+        "video": false,
+        "vote_average": 7.78,
+        "vote_count": 4211
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/1IM8i8HiomFC4y6NRyBuDrHJWg3.jpg",
+        "id": 447277,
+        "title": "The Little Mermaid",
+        "original_language": "en",
+        "original_title": "The Little Mermaid",
+        "overview": "The youngest of King Triton’s daughters, and the most defiant, Ariel longs to find out more about the world beyond the sea, and while visiting the surface, falls for the dashing Prince Eric. With mermaids forbidden to interact with humans, Ariel makes a deal with the evil sea witch, Ursula, which gives her a chance to experience life on land, but ultimately places her life – and her father’s crown – in jeopardy.",
+        "poster_path": "/ym1dxyOk4jFcSl4Q2zmRrA5BEEN.jpg",
+        "media_type": "movie",
+        "genre_ids": [
+            12,
+            10751,
+            14,
+            10749
+        ],
+        "popularity": 1767.363,
+        "release_date": "2023-05-18",
+        "video": false,
+        "vote_average": 6.098,
+        "vote_count": 491
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/rH3jY9JN9krUyE0Q3WLNtujMs8.jpg",
+        "id": 667538,
+        "title": "Transformers: Rise of the Beasts",
+        "original_language": "en",
+        "original_title": "Transformers: Rise of the Beasts",
+        "overview": "A '90s globetrotting adventure that introduces the Maximals, Predacons, and Terrorcons to the existing battle on earth between Autobots and Decepticons.",
+        "poster_path": "/gPbM0MK8CP8A174rmUwGsADNYKD.jpg",
+        "media_type": "movie",
+        "genre_ids": [
+            28,
+            12,
+            878
+        ],
+        "popularity": 789.565,
+        "release_date": "2023-06-06",
+        "video": false,
+        "vote_average": 9.8,
+        "vote_count": 11
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/4t0oBFrJyweYPt0hocW6RUa0b6H.jpg",
+        "id": 385687,
+        "title": "Fast X",
+        "original_language": "en",
+        "original_title": "Fast X",
+        "overview": "Over many missions and against impossible odds, Dom Toretto and his family have outsmarted, out-nerved and outdriven every foe in their path. Now, they confront the most lethal opponent they've ever faced: A terrifying threat emerging from the shadows of the past who's fueled by blood revenge, and who is determined to shatter this family and destroy everything—and everyone—that Dom loves, forever.",
+        "poster_path": "/1E5baAaEse26fej7uHcjOgEE2t2.jpg",
+        "media_type": "movie",
+        "genre_ids": [
+            28,
+            80,
+            53
+        ],
+        "popularity": 2716.225,
+        "release_date": "2023-05-17",
+        "video": false,
+        "vote_average": 7.065,
+        "vote_count": 807
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/oblUNeHlwV3VsjB5ITMlco5ZSOF.jpg",
+        "id": 493529,
+        "title": "Dungeons & Dragons: Honor Among Thieves",
+        "original_language": "en",
+        "original_title": "Dungeons & Dragons: Honor Among Thieves",
+        "overview": "A charming thief and a band of unlikely adventurers undertake an epic heist to retrieve a lost relic, but things go dangerously awry when they run afoul of the wrong people.",
+        "poster_path": "/A7AoNT06aRAc4SV89Dwxj3EYAgC.jpg",
+        "media_type": "movie",
+        "genre_ids": [
+            12,
+            14,
+            35
+        ],
+        "popularity": 475.547,
+        "release_date": "2023-03-23",
+        "video": false,
+        "vote_average": 7.478,
+        "vote_count": 1596
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/jqwM0nhOLEFI1HHBabwr80Od3TC.jpg",
+        "id": 324857,
+        "title": "Spider-Man: Into the Spider-Verse",
+        "original_language": "en",
+        "original_title": "Spider-Man: Into the Spider-Verse",
+        "overview": "Miles Morales is juggling his life between being a high school student and being a spider-man. When Wilson \"Kingpin\" Fisk uses a super collider, others from across the Spider-Verse are transported to this dimension.",
+        "poster_path": "/iiZZdoQBEYBv6id8su7ImL0oCbD.jpg",
+        "media_type": "movie",
+        "genre_ids": [
+            28,
+            12,
+            16,
+            878
+        ],
+        "popularity": 997.05,
+        "release_date": "2018-12-06",
+        "video": false,
+        "vote_average": 8.404,
+        "vote_count": 12936
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/cUHxmWfkp6se0Rt10Kr86bMCYDE.jpg",
+        "id": 1016084,
+        "title": "BlackBerry",
+        "original_language": "en",
+        "original_title": "BlackBerry",
+        "overview": "Two mismatched entrepreneurs – egghead innovator Mike Lazaridis and cut-throat businessman Jim Balsillie – joined forces in an endeavour that was to become a worldwide hit in little more than a decade. The story of the meteoric rise and catastrophic demise of the world's first smartphone.",
+        "poster_path": "/neV35lK7em4rIY9QIoH1cruErPA.jpg",
+        "media_type": "movie",
+        "genre_ids": [
+            35,
+            18,
+            36
+        ],
+        "popularity": 61.523,
+        "release_date": "2023-05-11",
+        "video": false,
+        "vote_average": 7.7,
+        "vote_count": 31
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/vQ5T84t8h4N2xAswNFW9fkVIyZq.jpg",
+        "id": 536437,
+        "title": "Hypnotic",
+        "original_language": "en",
+        "original_title": "Hypnotic",
+        "overview": "A detective becomes entangled in a mystery involving his missing daughter and a secret government program while investigating a string of reality-bending crimes.",
+        "poster_path": "/3IhGkkalwXguTlceGSl8XUJZOVI.jpg",
+        "media_type": "movie",
+        "genre_ids": [
+            80,
+            9648,
+            53
+        ],
+        "popularity": 349.614,
+        "release_date": "2023-05-11",
+        "video": false,
+        "vote_average": 6.59,
+        "vote_count": 105
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/nTvM4mhqNlHIvUkI1gVnW6XP7GG.jpg",
+        "id": 85937,
+        "name": "Demon Slayer: Kimetsu no Yaiba",
+        "original_language": "ja",
+        "original_name": "鬼滅の刃",
+        "overview": "It is the Taisho Period in Japan. Tanjiro, a kindhearted boy who sells charcoal for a living, finds his family slaughtered by a demon. To make matters worse, his younger sister Nezuko, the sole survivor, has been transformed into a demon herself. Though devastated by this grim reality, Tanjiro resolves to become a “demon slayer” so that he can turn his sister back into a human, and kill the demon that massacred his family.",
+        "poster_path": "/xUfRZu2mi8jH6SzQEJGP6tjBuYj.jpg",
+        "media_type": "tv",
+        "genre_ids": [
+            16,
+            10759,
+            10765
+        ],
+        "popularity": 296.323,
+        "first_air_date": "2019-04-06",
+        "vote_average": 8.701,
+        "vote_count": 5258,
+        "origin_country": [
+            "JP"
+        ]
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/3ib0uov9Qq9JtTIEGL39irTa3vZ.jpg",
+        "id": 79696,
+        "name": "Manifest",
+        "original_language": "en",
+        "original_name": "Manifest",
+        "overview": "After landing from a turbulent but routine flight, the crew and passengers of Montego Air Flight 828 discover five years have passed in what seemed like a few hours. As their new realities become clear, a deeper mystery unfolds and some of the returned passengers soon realize they may be meant for something greater than they ever thought possible.",
+        "poster_path": "/eTemCphrglLKrXOsNRhYezHA7H9.jpg",
+        "media_type": "tv",
+        "genre_ids": [
+            18,
+            9648,
+            10765
+        ],
+        "popularity": 426.57,
+        "first_air_date": "2018-09-24",
+        "vote_average": 7.722,
+        "vote_count": 1172,
+        "origin_country": [
+            "US"
+        ]
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/m8JTwHFwX7I7JY5fPe4SjqejWag.jpg",
+        "id": 640146,
+        "title": "Ant-Man and the Wasp: Quantumania",
+        "original_language": "en",
+        "original_title": "Ant-Man and the Wasp: Quantumania",
+        "overview": "Super-Hero partners Scott Lang and Hope van Dyne, along with with Hope's parents Janet van Dyne and Hank Pym, and Scott's daughter Cassie Lang, find themselves exploring the Quantum Realm, interacting with strange new creatures and embarking on an adventure that will push them beyond the limits of what they thought possible.",
+        "poster_path": "/qnqGbB22YJ7dSs4o6M7exTpNxPz.jpg",
+        "media_type": "movie",
+        "genre_ids": [
+            28,
+            12,
+            878
+        ],
+        "popularity": 1436.522,
+        "release_date": "2023-02-15",
+        "video": false,
+        "vote_average": 6.497,
+        "vote_count": 3135
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/51vreLbrGwzAg4WRCHgitWz6Naw.jpg",
+        "id": 447365,
+        "title": "Guardians of the Galaxy Vol. 3",
+        "original_language": "en",
+        "original_title": "Guardians of the Galaxy Vol. 3",
+        "overview": "Peter Quill, still reeling from the loss of Gamora, must rally his team around him to defend the universe along with protecting one of their own. A mission that, if not completed successfully, could quite possibly lead to the end of the Guardians as we know them.",
+        "poster_path": "/r2J02Z2OpNTctfOSN1Ydgii51I3.jpg",
+        "media_type": "movie",
+        "genre_ids": [
+            878,
+            12,
+            28
+        ],
+        "popularity": 1252.941,
+        "release_date": "2023-05-03",
+        "video": false,
+        "vote_average": 8.1,
+        "vote_count": 1828
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/fUVK7iUF0k9dU3MwV5MIKWMKGys.jpg",
+        "id": 298618,
+        "title": "The Flash",
+        "original_language": "en",
+        "original_title": "The Flash",
+        "overview": "When his attempt to save his family inadvertently alters the future, Barry Allen becomes trapped in a reality in which General Zod has returned and there are no Super Heroes to turn to. In order to save the world that he is in and return to the future that he knows, Barry's only hope is to race for his life. But will making the ultimate sacrifice be enough to reset the universe?",
+        "poster_path": "/67PmbAViFCW3obXxr5Utm9wArIP.jpg",
+        "media_type": "movie",
+        "genre_ids": [
+            878,
+            28,
+            12
+        ],
+        "popularity": 312.4,
+        "release_date": "2023-06-05",
+        "video": false,
+        "vote_average": 8,
+        "vote_count": 1
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/91CRROJESc2VhONvM6DeSxX1msp.jpg",
+        "id": 225152,
+        "name": "Barracuda Queens",
+        "original_language": "sv",
+        "original_name": "Barracuda Queens",
+        "overview": "When they fall deep into debt, a group of young women in an affluent Stockholm suburb turns to robbing their neighbors' houses. Inspired by real events.",
+        "poster_path": "/v4NYr1RsB3KRWIbDbv6NxpIFPRu.jpg",
+        "media_type": "tv",
+        "genre_ids": [
+            18,
+            80
+        ],
+        "popularity": 48.884,
+        "first_air_date": "2023-06-05",
+        "vote_average": 0,
+        "vote_count": 0,
+        "origin_country": [
+            "SE"
+        ]
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/pC54d6VTTm1bDZCSRtDa0EyAS1m.jpg",
+        "id": 1126852,
+        "title": "Rich in Love 2",
+        "original_language": "pt",
+        "original_title": "Ricos de Amor 2",
+        "overview": "When the idealistic Paula resumes her work as a volunteer doctor in the Amazon, Teto convinces his partners to establish their tomato cooperative in a village in the region. But to win back Paula's heart and save the company from bankruptcy, Teto must definitely overcome his spoiled playboy habits and face the interests of a powerful farmer, who stands in his way.",
+        "poster_path": "/gA2emLQTNb8XS1646Nmhp91NNgv.jpg",
+        "media_type": "movie",
+        "genre_ids": [
+            10749,
+            35
+        ],
+        "popularity": 115.923,
+        "release_date": "2023-06-02",
+        "video": false,
+        "vote_average": 6,
+        "vote_count": 13
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/hR2pFXMxVihldEk5WoSrV7Yq2ra.jpg",
+        "id": 124364,
+        "name": "From",
+        "original_language": "en",
+        "original_name": "From",
+        "overview": "Unravel the mystery of a nightmarish town in middle America that traps all those who enter. As the unwilling residents fight to keep a sense of normalcy and search for a way out, they must also survive the threats of the surrounding forest – including the terrifying creatures that come out when the sun goes down.",
+        "poster_path": "/pnrv8tfOcWxu4CrB8N7xK0jYJsR.jpg",
+        "media_type": "tv",
+        "genre_ids": [
+            9648,
+            18,
+            10765
+        ],
+        "popularity": 1124.047,
+        "first_air_date": "2022-02-20",
+        "vote_average": 8.314,
+        "vote_count": 387,
+        "origin_country": [
+            "US"
+        ]
+    }
+]

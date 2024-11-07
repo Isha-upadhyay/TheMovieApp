@@ -1,0 +1,39 @@
+.videoPanel{
+    display:flex;
+    flex-direction: column;
+    min-width: 90px;
+    min-height: 50px;
+    width: 764px;
+    height: 492px;
+    top: 0px;
+    left: 382px;
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
+    position: fixed;
+    opacity: 1;
+}
+.videoPanelTitleBar{
+    display:flex;
+    flex-direction: row;
+    position:relative;
+    justify-content: space-between;
+    color: rgb(255, 255, 255);
+    padding: 16px 16px;
+    font-size: 20px;
+}
+
+.closeIcon{
+    height: 16px;
+    width: 16px;
+}
+
+.videoPlayerIframe{
+    position: fixed;
+    min-width: 90px;
+    min-height: 50px;
+    width: 764px;
+    height: 492px;
+    background-color: #000;
+    filter: grayscale(100%);
+    border:none;
+}

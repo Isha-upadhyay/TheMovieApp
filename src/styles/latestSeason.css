@@ -1,0 +1,43 @@
+.seasonInfo {
+    display: flex;
+    flex-direction: row;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    border: 1px solid rgb(227, 227, 227);
+}
+
+.seriesPoster{
+    min-width: 130px;
+    width: 130px;
+    height: 195px;
+}
+
+.seriesPosterImg {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    width: 100%;
+    height: 100%;
+}
+
+.otherSeasonInfo {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.seasonNameAndEpisodes {
+    display:flex;
+    flex-direction: column;
+}
+
+.seasonTitle {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.yearAndEpisodeCount {
+    font-size: 16px;
+    font-weight: 700;
+}

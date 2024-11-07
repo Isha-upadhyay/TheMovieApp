@@ -1,0 +1,312 @@
+.listCards {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    position: relative;
+}
+
+
+.listCards::-webkit-scrollbar {
+    height: 7px;
+}
+
+.listCards::-webkit-scrollbar-track {
+    background-color: #FFF;
+    width: 100px;
+}
+
+.listCards::-webkit-scrollbar-thumb {
+    background-color: #DBDBDB;
+    border-radius: 5px;
+}
+
+.listCards::-webkit-scrollbar-thumb:hover {
+    background-color: #DBDBDB;
+}
+
+.card {
+    margin-left: 20px;
+    width: 150px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    transition: opacity 0.3s ease;
+    text-decoration: none;
+}
+
+@keyframes blink-animation {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes opacity-transition-animation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.card.contentNotLoaded {
+    background-color: rgb(219, 219, 211);
+    animation: blink-animation 1s infinite;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentNotLoadedImage {
+    width: 100px;
+    height: 100px;
+}
+
+.cardActionItemsDiv {
+    display: none;
+    opacity: 0;
+    position: absolute;
+    top: 60px;
+    left: 70%;
+    z-index: 10;
+    font-size: 14px;
+    background-color: white;
+    border-radius: 5px;
+    width: 150px;
+    transition: opacity 1s ease;
+    animation: opacity-transition-animation 1s;
+}
+
+.cardActionItems {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+
+.cardActionItem {
+    padding-left: 15px;
+    height: 40px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.listIcon {
+    padding-top: 2px;
+    width: 16px;
+    height: 16px;
+    margin: 0 10px;
+}
+
+.itemDesc {
+    opacity: 0.6;
+    font-weight: 600;
+}
+
+.cardActionItem:hover {
+    background-color: rgb(3, 37, 65);
+    color: white;
+    opacity: 1;
+}
+
+.blurCard {
+    z-index: 2;
+}
+
+.card::before {
+    display: none;
+    opacity: 0;
+    animation: opacity-transition-animation 1s;
+    z-index: 5;
+    content: "";
+    position: absolute;
+    top: 20px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+.card.blurCard::before {
+    display: block;
+    opacity: 1;
+}
+
+.toggleDisplay {
+    display: block;
+    backdrop-filter: none;
+    opacity: 1;
+    animation: opacity-transition-animation 1s;
+}
+
+.poster {
+    position: relative;
+    border-radius: 5px;
+    height: 225px;
+}
+
+.movieOptions {
+    position: absolute;
+    top: 28px;
+    right: 8px;
+    z-index: 4;
+    border-radius: 50%;
+    border: 0px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF;
+    opacity: 0.6;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.dot {
+    width: 2px;
+    height: 2px;
+    background-color: black;
+    border-radius: 50%;
+    margin: 1px;
+}
+
+.movieOptions:hover {
+    background-color: rgb(1, 180, 228);
+    opacity: 1;
+}
+
+.isOptionsActive {
+    background-color: rgb(1, 180, 228);
+    opacity: 1;
+}
+
+.cardPoster {
+    height: 225px;
+    width: 150px;
+    border-radius: 5px;
+    background-color: rgb(219, 219, 211);
+}
+
+.movieTitle {
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-left: 8px;
+    color: #000;
+}
+
+.movieTitle:hover {
+    color: rgb(1, 180, 228);
+}
+
+.anchor {
+    text-decoration: none;
+}
+
+.releaseDate {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.6);
+    margin-left: 8px;
+}
+
+.voteAverage {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(8, 28, 34);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 230px;
+    left: 8px;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    border: 1px solid green;
+}
+
+.userScoreTitlePage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(8, 28, 34);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.3s ease-in
+}
+
+.userScoreTitlePage:hover {
+    transform: scale(1.2);
+}
+
+.userScoreTitlePage>span {
+    font-size: 24px;
+}
+
+.userScore {
+    background-color: rgb(8, 28, 34);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.userScoreSvg {
+    transform: scale(0.95);
+}
+
+.bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.track {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.rotate {
+    transform: rotate(-90deg);
+}
+
+.displayRating {
+    background-color: rgb(8, 28, 34);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(-2px);
+}
+
+.percentage {
+    position: absolute;
+    font-size: 8px;
+}

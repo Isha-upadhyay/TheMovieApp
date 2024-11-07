@@ -1,0 +1,35 @@
+.socialMediaLinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 60px;
+}
+
+.socialSVGLink {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+}
+
+.homepage {
+    border-left: 1px solid #d7d7d7;
+    padding-left: 5px;
+}
+
+.justWatch{
+    width:23px; 
+    height:30px;
+    padding-left:10px;
+}
+
+.socialLink {
+    display: flex;
+    position: relative;
+    cursor: pointer;
+    color: #FFF;
+    justify-content: center;
+}
+
+.socialLinkToolTip {
+    top: -40px;
+}

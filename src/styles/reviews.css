@@ -1,0 +1,93 @@
+.reviews {
+    width: 100%;
+
+}
+
+.reviewCard {
+    padding: 20px;
+    border: 1px solid rgb(227, 227, 227);
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.authorDetails {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.authorAvatar {
+    margin-right: 20px;
+}
+
+.authorAvatarImg {
+    height: 64px;
+    width: 64px;
+    border-radius: 50%;
+}
+
+.otherReviewDetails {
+    display: flex;
+    flex-direction: column;
+}
+
+.reviewBy {
+    font-size: 20.8px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.reviewRating {
+    font-size: 14.4px;
+    margin-left: 14px;
+    padding: 1px 8px;
+    background-color: black;
+    display:flex;
+    flex-direction: row;
+    color: #FFF;
+    align-items: center;
+    border-radius: 8px;
+    font-weight: normal;
+}
+
+.starRating{
+    height: 14.4px;
+    width: 14.4px;
+    margin-right: 2px;
+}
+
+.noAuthor{
+    background-color: red;
+    opacity: 0.9;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    color: white;
+    font-size: 32px;
+}
+
+
+.reviewDateTime {
+    font-size: 14.4px;
+    font-weight: 300;
+}
+
+.reviewContent {
+    box-sizing: border-box;
+    padding-top: 20px;
+    margin-left: 84px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.readTheRest {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.readTheRest:hover {
+    opacity: 0.6;
+}

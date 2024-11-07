@@ -1,0 +1,105 @@
+.recommendationsSection {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid #d7d7d7;
+    padding: 30px 0;
+}
+
+.sectionHeading {
+    margin-right: 50px;
+    font-size: 22.4px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.recommendations {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    position: relative;
+}
+
+.recommendations::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: rgb(216, 216, 221);
+    background: linear-gradient(90deg, rgba(216, 216, 221, 0) 0%, rgba(221, 224, 224, 0.5) 54%, rgba(254, 254, 254, 1) 100%);
+    width: 60px;
+    height: 190px;
+    z-index: 10;
+}
+
+.recommendationCard {
+    cursor: pointer;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+#recommendation-0 {
+    margin-left: 0;
+}
+
+.recommendationCardOptions {
+    position: absolute;
+    top: 101px;
+    height: 40px;
+    width: 100%;
+    background-color: #FFF;
+    display: none;
+    opacity: 0.8;
+}
+
+.optionsActive {
+    z-index: 100;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.recommendationPoster {
+    border-radius: 8px;
+    width: 250px;
+    height: 141px;
+}
+
+.recommendationPosterImage {
+    border-radius: 8px;
+    height: 100%;
+    width: 100%;
+}
+
+.titleAndScore {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.recommendationTitle {
+    width: 80%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.releaseDateWithCalendarSVG {
+    padding-left: 10px;
+}
+
+.optionSVGs {
+    padding-right: 10px;
+}
+
+.recommendationOptionsSvg {
+    height: 16px;
+    width: 16px;
+    margin-right: 4px;
+}

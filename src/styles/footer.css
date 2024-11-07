@@ -1,0 +1,49 @@
+.footer{
+    width: 100%;
+    background-color: rgb(3, 37, 65);
+    color: #FFF;
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footerWrapper{
+    max-width: 1300px;
+    width: 100%;
+    display:flex;
+    align-content: center;
+    justify-content: center;
+}
+.footerList{
+    list-style-type: none;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.title{
+    font-size: 20px;
+    font-weight: 700;
+}
+.footerTMDBLogoDiv{
+    display:flex;
+    justify-content: flex-end;
+    margin-bottom: 30px;
+    margin-top: -20px;
+}
+.tmdbLogo{
+    width: 134px;
+    height: 94px;
+}
+.footerJoinButtonDiv{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.joinCommunityButton{
+    color: rgb(1, 180, 228);
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+}

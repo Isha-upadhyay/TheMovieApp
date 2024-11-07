@@ -1,0 +1,114 @@
+.mediaSection {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid #d7d7d7;
+    padding: 30px 0;
+}
+
+.mediaOptions {
+    position: relative;
+}
+
+.isMediaActive {
+    border: 2px solid black;
+}
+
+.updateViewAllText {
+    position: absolute;
+    right: 0;
+    color: rgb(1, 180, 228);
+    cursor: pointer;
+    font-size: 14.4px;
+    font-weight: 600;
+}
+
+.popularMedia,
+.titleVideos,
+.titlePosters,
+.titleBackdrops {
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    border-radius: 8px;
+    height: 300px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+.popularMedia,
+.titleVideos,
+.titlePosters,
+.titleBackdrops{
+    animation: opacity-transition-animation 1s;
+}
+
+.video {
+    width: 533px;
+    height: 300px;
+    position: relative;
+}
+
+.videoThumbnail {
+    width: 533px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.playButton {
+    position: absolute;
+    width: 67px;
+    height: 67px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.7);
+    left: 230px;
+    top: 105px;
+    cursor: pointer;
+    opacity: 1;
+}
+
+.playButtonSVG {
+    height: 50%;
+    width: 50%;
+}
+
+.playButton:hover {
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+}
+
+.backdrop, .viewMorePopular {
+    min-width: 533px;
+    height: 300px;
+}
+.viewMorePopular, .viewMorePosters{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-left: 30px;
+    align-items: center;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 20.8px;
+    font-weight: normal;
+}
+
+.viewMorePosters{
+    width: 200px;
+    height: 300px;
+    margin-right: 70px;
+}
+
+.viewMoreSVG{
+    padding-left: 4px;
+    height: 22px;
+    width: 24px;
+}
+
+.mediaPoster {
+    width: 200px;
+    height: 300px;
+}

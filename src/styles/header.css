@@ -1,0 +1,159 @@
+.header {
+    width: 100%;
+    height: 64px;
+    background-color: rgb(3, 37, 65);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+}
+
+#loading-bar {
+    width: 100%;
+    height: 5px;
+    background-color: #ddd;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    transition: width 0.3s ease;
+    display:none;
+}
+
+.displayLoadingBar {
+    width: 0;
+    display: block;
+    width: 100%;
+}
+
+.navbarWrapper {
+    max-width: 1300px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    font-size: 16px;
+    max-width: 1300px;
+    padding: 0 40px;
+}
+
+.navbarWithDropdowns {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbarDropdown {
+    display: none;
+}
+
+.otheractions {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+}
+
+.movieDBLogo {
+    width: 154px;
+    height: 20px;
+}
+
+.navbar_menu_list,
+.otheractions_list{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    list-style-type: none;
+    padding-left: 24px;
+}
+
+.navbar_menu_list_item,
+.otheractions_list_item {
+    margin-right: 24px;
+    font-weight: 600;
+    line-height: 24px;
+    cursor: pointer;
+}
+.navbar_menu_list_item{
+    position: relative;
+    height: 24px;
+    min-width: 50px;
+}
+.moreWidth{
+    min-width: 71px;
+}
+.list_item_title{
+    position : absolute;
+    top: 0; left: 0;
+}
+.list_item_dropdown_actions{
+    position : absolute;
+    top: 30px; left: 0;
+    display:none;
+    background-color: #FFF;
+    color: #000;
+    width: 120px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 16px;
+    z-index:20;
+}
+.navbar_list_dropdown_actions{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    list-style-type: none;
+    padding: 0;
+    margin:0;
+}
+.dropdown_action{
+    margin-bottom:5px;
+}
+.displayActions{
+    display:block;
+}
+
+.plusIcon {
+    height: 24px;
+    width: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+.siteLanguage {
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(3, 37, 65);
+    border: 1px solid #FFF;
+    border-radius: 4px;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+}
+
+.siteLanguage:hover {
+    background-color: #FFF;
+    color: rgb(3, 37, 65);
+}
+
+.searchIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 29px;
+    height: 29px;
+}
